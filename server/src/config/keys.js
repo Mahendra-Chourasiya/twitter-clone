@@ -9,10 +9,10 @@ module.exports = {
   mongoose: {
     uri: process.env.MONGO_URI + (process.env.NODE_ENV === 'test' ? '-test' : ''),
     options: {
-      useCreateIndex: true,
+      // useCreateIndex: true,
       useNewUrlParser: true,
       useUnifiedTopology: true,
-      useFindAndModify: false,
+      // useFindAndModify: false,
     },
   },
   jwt: {

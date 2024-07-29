@@ -14,7 +14,7 @@
     "format": "prettier --write **/*.js"
   },
   "engines": {
-    "node": ">=12.0.0"
+    "node": "^20.0.0"
   },
 
   "dependencies": {

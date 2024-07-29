@@ -1,9 +1,7 @@
 {
-  "name": "twitter-clone",
-  "version": "2.0.0",
-  "description": "A full-stack Twitter clone built using Node, Express, React and MongoDB",
+  "name": "server",
+  "version": "1.0.0",
   "main": "src/index.js",
-  "private": true,
   "scripts": {
     "start": "node src/index.js",
     "dev": "cross-env NODE_ENV=development nodemon src/index.js",
@@ -13,11 +11,6 @@
     "lint:fix": "eslint . --fix",
     "format": "prettier --write **/*.js"
   },
-  "engines": {
-    "node": ">=12.0.0"
-  },
-  "author": "Mateusz Wszoła",
-  "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "compression": "^1.7.4",

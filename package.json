@@ -1,22 +1,13 @@
 {
-  "name" : "vercel-testing",
+  "name": "frontend",
   "version": "1.0.0",
-  "description": "node express testing" ,
-  "main": "server/src/index.js" ,
-  "engines":{
-    "node": "14.x"
+  "scripts": {
+    "build": "react-scripts build",
+    "start": "react-scripts start"
   },
-
-  "scripts":{
-    "start": "node server/src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  
-  "keywords " : [],
-  "author" : "",
-  "license": "ISC",
-  "dependencies" :{
-    "express": "^4.17.1",
-    "nodemon": "^2.0.15"
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
   }
 }
